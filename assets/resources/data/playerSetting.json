@@ -1,0 +1,75 @@
+{
+    "config": [
+        {
+            "title": "账号",
+            "config": [
+                {
+                    "name": "accountNum",
+                    "hideTxt": false,
+                    "showEdit": false,
+                    "desc": "账号ID",
+                    "skin": "resources/images/set/shezhiid.png"
+                }
+            ]
+        },
+        {
+            "title": "通用",
+            "config": [
+                {
+                    "alias": {
+                        "0": "私密",
+                        "1": "好友",
+                        "2": "粉丝",
+                        "3": "公开"
+                    },
+                    "showEdit": true,
+                    "hideTxt": false,
+                    "value": "3",
+                    "name": "like",
+                    "desc": "谁可以看我的喜欢",
+                    "skin": "resources/images/set/shezhixh.png"
+                },
+                {
+                    "alias": {
+                        "0": "私密",
+                        "1": "好友",
+                        "2": "粉丝",
+                        "3": "公开"
+                    },
+                    "showEdit": true,
+                    "hideTxt": false,
+                    "value": "3",
+                    "name": "collect",
+                    "desc": "谁可以看我的收藏",
+                    "skin": "resources/images/set/shezhisc.png"
+                },
+                {
+                    "alias": {
+                        "0": "私密",
+                        "1": "好友",
+                        "2": "粉丝",
+                        "3": "公开"
+                    },
+                    "showEdit": true,
+                    "hideTxt": false,
+                    "value": "3",
+                    "name": "letter",
+                    "desc": "谁可以私信我",
+                    "skin": "resources/images/set/shezisixin.png"
+                },
+                {
+                    "alias": {
+                        "0": "关",
+                        "1": "开"
+                    },
+                    "showEdit": true,
+                    "hideTxt": false,
+                    "value": "0",
+                    "name": "chat",
+                    "desc": "私信/游戏聊天",
+                    "skin": "resources/images/set/chat.png"
+                }
+            ]
+        }
+    ]
+}

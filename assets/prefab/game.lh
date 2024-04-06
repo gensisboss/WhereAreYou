@@ -1,0 +1,59 @@
+{
+  "_$ver": 1,
+  "_$id": "dhg11zeygm",
+  "_$runtime": "res://fb7fc625-4b50-495e-a22a-8d3f59f5533b",
+  "_$type": "Box",
+  "name": "Box",
+  "width": 120,
+  "height": 120,
+  "mask": {
+    "_$ref": "6dwnui6y"
+  },
+  "_$child": [
+    {
+      "_$id": "qnnjkd8b",
+      "_$var": true,
+      "_$type": "Image",
+      "name": "gameIcon",
+      "width": 120,
+      "height": 120,
+      "_mouseState": 2,
+      "mask": {
+        "_$ref": "6dwnui6y"
+      },
+      "left": 0,
+      "top": 0,
+      "skin": "res://645f1e74-59c5-44b1-9a71-d1e9e1b73019",
+      "color": "#ffffff"
+    },
+    {
+      "_$id": "6dwnui6y",
+      "_$var": true,
+      "_$type": "Sprite",
+      "name": "gameMask",
+      "width": 120,
+      "height": 120,
+      "texture": {
+        "_$uuid": "bce77b87-49f6-4f62-a43a-68b2bcb5e98f",
+        "_$type": "Texture"
+      },
+      "_gcmds": [
+        {
+          "_$type": "DrawRoundRectCmd",
+          "x": 0,
+          "y": 0,
+          "width": 1,
+          "height": 1,
+          "lt": 10,
+          "rt": 10,
+          "lb": 10,
+          "rb": 10,
+          "percent": true,
+          "lineWidth": 1,
+          "lineColor": "#000000",
+          "fillColor": "#FFFFFF"
+        }
+      ]
+    }
+  ]
+}

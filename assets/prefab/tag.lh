@@ -1,0 +1,58 @@
+{
+  "_$ver": 1,
+  "_$id": "df7xm1f5xs",
+  "_$runtime": "res://533a5e28-a77d-4b34-b325-177afb1eb29f",
+  "_$type": "Box",
+  "name": "Box",
+  "width": 100,
+  "height": 40,
+  "_$child": [
+    {
+      "_$id": "d9oc89y3",
+      "_$type": "Image",
+      "name": "bg",
+      "width": 100,
+      "height": 40,
+      "left": 0,
+      "right": 0,
+      "top": 0,
+      "bottom": 0,
+      "skin": "res://73aa5eb6-1d92-436e-9db6-aa3b2561c98b",
+      "sizeGrid": "20,20,20,20,0",
+      "color": "#ffffff"
+    },
+    {
+      "_$id": "hhhz1uhy",
+      "_$var": true,
+      "_$type": "Label",
+      "name": "tab",
+      "width": 70,
+      "height": 40,
+      "left": 0,
+      "right": 30,
+      "top": 0,
+      "bottom": 0,
+      "text": "标签",
+      "font": "SimHei",
+      "fontSize": 20,
+      "color": "#FFFFFF",
+      "align": "center",
+      "valign": "middle",
+      "leading": 2,
+      "padding": "0,0,0,0"
+    },
+    {
+      "_$id": "7fhso7yq",
+      "_$type": "Image",
+      "name": "Image",
+      "x": 60,
+      "width": 40,
+      "height": 40,
+      "right": 0,
+      "centerY": 0,
+      "skin": "res://8585de3f-e3de-41b4-8797-a978497cdf6e",
+      "useSourceSize": true,
+      "color": "#ffffff"
+    }
+  ]
+}

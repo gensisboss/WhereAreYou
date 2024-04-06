@@ -1,0 +1,45 @@
+{
+  "_$ver": 1,
+  "_$id": "df7xm1f5xs",
+  "_$runtime": "res://e57a1020-0666-46a8-8585-55692156347b",
+  "_$type": "Box",
+  "name": "Box",
+  "width": 100,
+  "height": 50,
+  "_$child": [
+    {
+      "_$id": "d9oc89y3",
+      "_$type": "Image",
+      "name": "bg",
+      "width": 100,
+      "height": 50,
+      "left": 0,
+      "right": 0,
+      "top": 0,
+      "bottom": 0,
+      "skin": "res://f4fb321e-d6fe-450d-af02-dcd69d0bdc40",
+      "sizeGrid": "20,30,20,30,0",
+      "color": "#ffffff"
+    },
+    {
+      "_$id": "hhhz1uhy",
+      "_$var": true,
+      "_$type": "Label",
+      "name": "tab",
+      "width": 100,
+      "height": 50,
+      "left": 0,
+      "right": 0,
+      "top": 0,
+      "bottom": 0,
+      "text": "搜索",
+      "font": "SimHei",
+      "fontSize": 24,
+      "color": "rgba(153, 153, 153, 1)",
+      "align": "center",
+      "valign": "middle",
+      "leading": 2,
+      "padding": "0,0,0,0"
+    }
+  ]
+}

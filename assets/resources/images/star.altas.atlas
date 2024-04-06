@@ -1,0 +1,124 @@
+{
+  "meta": {},
+  "frames": {
+    "star_0000000.png": {
+      "frame": {
+        "idx": 0,
+        "x": 0,
+        "y": 220,
+        "w": 203,
+        "h": 198
+      },
+      "sourceSize": {
+        "w": 256,
+        "h": 256
+      },
+      "spriteSourceSize": {
+        "x": 26,
+        "y": 29
+      }
+    },
+    "star_0000001.png": {
+      "frame": {
+        "idx": 0,
+        "x": 443,
+        "y": 181,
+        "w": 154,
+        "h": 150
+      },
+      "sourceSize": {
+        "w": 256,
+        "h": 256
+      },
+      "spriteSourceSize": {
+        "x": 47,
+        "y": 63
+      }
+    },
+    "star_0000002.png": {
+      "frame": {
+        "idx": 0,
+        "x": 443,
+        "y": 333,
+        "w": 142,
+        "h": 137
+      },
+      "sourceSize": {
+        "w": 256,
+        "h": 256
+      },
+      "spriteSourceSize": {
+        "x": 60,
+        "y": 50
+      }
+    },
+    "star_0000003.png": {
+      "frame": {
+        "idx": 0,
+        "x": 229,
+        "y": 0,
+        "w": 212,
+        "h": 205
+      },
+      "sourceSize": {
+        "w": 256,
+        "h": 256
+      },
+      "spriteSourceSize": {
+        "x": 17,
+        "y": 11
+      }
+    },
+    "star_0000004.png": {
+      "frame": {
+        "idx": 0,
+        "x": 0,
+        "y": 0,
+        "w": 227,
+        "h": 218
+      },
+      "sourceSize": {
+        "w": 256,
+        "h": 256
+      },
+      "spriteSourceSize": {
+        "x": 7,
+        "y": 13
+      }
+    },
+    "star_0000005.png": {
+      "frame": {
+        "idx": 0,
+        "x": 443,
+        "y": 0,
+        "w": 184,
+        "h": 179
+      },
+      "sourceSize": {
+        "w": 256,
+        "h": 256
+      },
+      "spriteSourceSize": {
+        "x": 36,
+        "y": 38
+      }
+    },
+    "star_0000006.png": {
+      "frame": {
+        "idx": 0,
+        "x": 229,
+        "y": 207,
+        "w": 212,
+        "h": 205
+      },
+      "sourceSize": {
+        "w": 256,
+        "h": 256
+      },
+      "spriteSourceSize": {
+        "x": 22,
+        "y": 25
+      }
+    }
+  }
+}

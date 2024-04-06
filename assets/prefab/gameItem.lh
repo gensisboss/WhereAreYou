@@ -1,0 +1,163 @@
+{
+  "_$ver": 1,
+  "_$id": "dhg11zeygm",
+  "_$runtime": "res://b4bd68d9-3e7f-4e8f-9b5b-6ae67b2fbde8",
+  "_$type": "Box",
+  "name": "Box",
+  "width": 218,
+  "height": 218,
+  "mask": {
+    "_$ref": "p0nkg45f"
+  },
+  "_$child": [
+    {
+      "_$id": "6g1kglsa",
+      "_$var": true,
+      "_$type": "Image",
+      "name": "gameIcon",
+      "width": 218,
+      "height": 218,
+      "_mouseState": 2,
+      "mask": {
+        "_$ref": "p0nkg45f"
+      },
+      "left": 0,
+      "top": 0,
+      "skin": "res://bce77b87-49f6-4f62-a43a-68b2bcb5e98f",
+      "color": "#ffffff"
+    },
+    {
+      "_$id": "p0nkg45f",
+      "_$var": true,
+      "_$type": "Sprite",
+      "name": "gameMask",
+      "width": 218,
+      "height": 218,
+      "texture": {
+        "_$uuid": "bce77b87-49f6-4f62-a43a-68b2bcb5e98f",
+        "_$type": "Texture"
+      },
+      "_gcmds": [
+        {
+          "_$type": "DrawRoundRectCmd",
+          "x": 0,
+          "y": 0,
+          "width": 1,
+          "height": 1,
+          "lt": 10,
+          "rt": 10,
+          "lb": 10,
+          "rb": 10,
+          "percent": true,
+          "lineWidth": 1,
+          "lineColor": "#000000",
+          "fillColor": "#FFFFFF"
+        }
+      ]
+    },
+    {
+      "_$id": "8hq3q6k5",
+      "_$prefab": "2b2bf7b0-babc-40cd-9e91-27a5bfd58c51",
+      "_$var": true,
+      "name": "head",
+      "active": true,
+      "x": 10,
+      "y": 164,
+      "visible": true,
+      "left": 10,
+      "bottom": 10,
+      "width": 44,
+      "height": 44
+    },
+    {
+      "_$id": "t7pwvhdz",
+      "_$var": true,
+      "_$type": "Label",
+      "name": "gameName",
+      "x": 16,
+      "y": 10,
+      "width": 186,
+      "height": 28,
+      "top": 10,
+      "centerX": 0,
+      "text": "-",
+      "font": "SimHei",
+      "fontSize": 20,
+      "color": "#FFFFFF",
+      "align": "center",
+      "valign": "middle",
+      "overflow": "scroll",
+      "padding": "0,0,0,0",
+      "stroke": 4
+    },
+    {
+      "_$id": "2v25pxqd",
+      "_$var": true,
+      "_$type": "Image",
+      "name": "play",
+      "x": 60,
+      "y": 170,
+      "width": 30,
+      "height": 30,
+      "zOrder": 1,
+      "left": 60,
+      "top": 170,
+      "skin": "res://77374ca1-2d82-4dbf-9d22-56a97ade2fbd",
+      "sizeGrid": "0,0,0,0,0",
+      "color": "#ffffff",
+      "_$child": [
+        {
+          "_$id": "yblm70oh",
+          "_$var": true,
+          "_$type": "Label",
+          "name": "playerNum",
+          "x": 30,
+          "y": 4,
+          "width": 51,
+          "height": 28,
+          "left": 30,
+          "centerY": 3,
+          "text": "999",
+          "font": "SimHei",
+          "fontSize": 20,
+          "color": "#FFFFFF",
+          "valign": "middle",
+          "padding": "0,0,0,0"
+        }
+      ]
+    },
+    {
+      "_$id": "s5mj6j1a",
+      "_$var": true,
+      "_$type": "Image",
+      "name": "edit",
+      "x": 168,
+      "y": 166,
+      "width": 40,
+      "height": 40,
+      "right": 10,
+      "bottom": 12,
+      "skin": "res://dbb50f3b-61e4-4291-9db0-dfc727efd565",
+      "useSourceSize": true,
+      "color": "#ffffff",
+      "_$child": [
+        {
+          "_$id": "0k2be9fo",
+          "_$type": "Image",
+          "name": "Image",
+          "x": 10,
+          "y": 10,
+          "width": 20,
+          "height": 20,
+          "alpha": 0.5,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+          "bottom": 10,
+          "skin": "res://890d7500-7a5c-4775-a410-a6416825cdb8",
+          "color": "#ffffff"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "_$ver": 1,
+  "_$id": "dhg11zeygm",
+  "_$runtime": "res://5cef8ac2-6c85-479d-ae22-887cd76a4e83",
+  "_$type": "Box",
+  "name": "Box",
+  "width": 80,
+  "height": 80,
+  "_$child": [
+    {
+      "_$id": "k1qtsrcm",
+      "_$type": "Image",
+      "name": "Image(1)",
+      "width": 80,
+      "height": 80,
+      "left": 0,
+      "right": 0,
+      "top": 0,
+      "bottom": 0,
+      "skin": "res://e89496b1-d33a-4ce0-b1bd-e4e8ae804109",
+      "sizeGrid": "0,0,0,0,0",
+      "color": "#ffffff"
+    },
+    {
+      "_$id": "2b8sn18q",
+      "_$var": true,
+      "_$type": "Image",
+      "name": "headIcon",
+      "width": 80,
+      "height": 80,
+      "mask": {
+        "_$ref": "8dhdl2po"
+      },
+      "left": 0,
+      "right": 0,
+      "top": 0,
+      "bottom": 0,
+      "skin": "res://17c5815b-3fc3-448f-96f1-d031d0345c1a",
+      "color": "#ffffff",
+      "_$child": [
+        {
+          "_$id": "8dhdl2po",
+          "_$var": true,
+          "_$type": "Sprite",
+          "name": "headMask",
+          "width": 80,
+          "height": 80,
+          "texture": {
+            "_$uuid": "e89496b1-d33a-4ce0-b1bd-e4e8ae804109",
+            "_$type": "Texture"
+          }
+        }
+      ]
+    },
+    {
+      "_$id": "q67dkkdr",
+      "_$type": "Image",
+      "name": "Image",
+      "width": 80,
+      "height": 80,
+      "left": 0,
+      "right": 0,
+      "top": 0,
+      "bottom": 0,
+      "skin": "res://f4bcad89-cbc0-4578-b710-6223ad1f2752",
+      "sizeGrid": "0,0,0,0,0",
+      "color": "#ffffff"
+    }
+  ]
+}

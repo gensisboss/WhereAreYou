@@ -1,0 +1,141 @@
+{
+  "meta": {},
+  "frames": {
+    "00000.png": {
+      "frame": {
+        "idx": 0,
+        "x": 0,
+        "y": 0,
+        "w": 57,
+        "h": 60
+      },
+      "sourceSize": {
+        "w": 72,
+        "h": 72
+      },
+      "spriteSourceSize": {
+        "x": 5,
+        "y": 8
+      }
+    },
+    "00001.png": {
+      "frame": {
+        "idx": 0,
+        "x": 118,
+        "y": 0,
+        "w": 57,
+        "h": 54
+      },
+      "sourceSize": {
+        "w": 72,
+        "h": 72
+      },
+      "spriteSourceSize": {
+        "x": 5,
+        "y": 14
+      }
+    },
+    "00002.png": {
+      "frame": {
+        "idx": 0,
+        "x": 59,
+        "y": 0,
+        "w": 57,
+        "h": 60
+      },
+      "sourceSize": {
+        "w": 72,
+        "h": 72
+      },
+      "spriteSourceSize": {
+        "x": 5,
+        "y": 8
+      }
+    },
+    "00003.png": {
+      "frame": {
+        "idx": 0,
+        "x": 118,
+        "y": 56,
+        "w": 57,
+        "h": 54
+      },
+      "sourceSize": {
+        "w": 72,
+        "h": 72
+      },
+      "spriteSourceSize": {
+        "x": 5,
+        "y": 14
+      }
+    },
+    "00004.png": {
+      "frame": {
+        "idx": 0,
+        "x": 0,
+        "y": 62,
+        "w": 57,
+        "h": 60
+      },
+      "sourceSize": {
+        "w": 72,
+        "h": 72
+      },
+      "spriteSourceSize": {
+        "x": 5,
+        "y": 8
+      }
+    },
+    "00005.png": {
+      "frame": {
+        "idx": 0,
+        "x": 177,
+        "y": 0,
+        "w": 57,
+        "h": 54
+      },
+      "sourceSize": {
+        "w": 72,
+        "h": 72
+      },
+      "spriteSourceSize": {
+        "x": 5,
+        "y": 14
+      }
+    },
+    "00006.png": {
+      "frame": {
+        "idx": 0,
+        "x": 59,
+        "y": 62,
+        "w": 57,
+        "h": 60
+      },
+      "sourceSize": {
+        "w": 72,
+        "h": 72
+      },
+      "spriteSourceSize": {
+        "x": 5,
+        "y": 8
+      }
+    },
+    "00007.png": {
+      "frame": {
+        "idx": 0,
+        "x": 177,
+        "y": 56,
+        "w": 57,
+        "h": 54
+      },
+      "sourceSize": {
+        "w": 72,
+        "h": 72
+      },
+      "spriteSourceSize": {
+        "x": 5,
+        "y": 14
+      }
+    }
+  }
+}

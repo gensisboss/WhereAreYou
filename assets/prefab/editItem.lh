@@ -1,0 +1,73 @@
+{
+  "_$ver": 1,
+  "_$id": "dhg11zeygm",
+  "_$runtime": "res://e9a02d2e-fb32-4c80-824d-7c930e019c51",
+  "_$type": "Box",
+  "name": "Box",
+  "width": 120,
+  "height": 120,
+  "_$child": [
+    {
+      "_$id": "k1qtsrcm",
+      "_$type": "Image",
+      "name": "Image(1)",
+      "width": 120,
+      "height": 120,
+      "left": 0,
+      "right": 0,
+      "top": 0,
+      "bottom": 0,
+      "skin": "res://14ee121d-34aa-4cbd-b91b-eb1a499a71ca",
+      "sizeGrid": "0,0,0,0,0",
+      "color": "#ffffff"
+    },
+    {
+      "_$id": "2b8sn18q",
+      "_$var": true,
+      "_$type": "Image",
+      "name": "icon",
+      "x": 10,
+      "y": 10,
+      "width": 100,
+      "height": 100,
+      "centerX": 0,
+      "centerY": 0,
+      "skin": "res://17c5815b-3fc3-448f-96f1-d031d0345c1a",
+      "color": "#ffffff"
+    },
+    {
+      "_$id": "xl1g3x0y",
+      "_$var": true,
+      "_$type": "Label",
+      "name": "index",
+      "y": 92,
+      "width": 120,
+      "height": 28,
+      "left": 0,
+      "right": 0,
+      "bottom": 0,
+      "text": "0",
+      "fontSize": 24,
+      "color": "#FFFFFF",
+      "align": "center",
+      "valign": "middle",
+      "leading": 2,
+      "padding": "0,0,0,0"
+    },
+    {
+      "_$id": "7ub39fdk",
+      "_$var": true,
+      "_$type": "Image",
+      "name": "delete",
+      "x": 100,
+      "y": -20,
+      "width": 40,
+      "height": 40,
+      "visible": false,
+      "right": -20,
+      "top": -20,
+      "skin": "res://84e78b6a-6049-431d-88d3-105fa00c006c",
+      "color": "#ffffff"
+    }
+  ]
+}

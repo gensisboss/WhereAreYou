@@ -1,0 +1,52 @@
+{
+  "_$ver": 1,
+  "_$id": "lx8mwule",
+  "_$runtime": "res://a6883442-5fce-4480-b61e-d154e66eeaee",
+  "_$type": "Scene",
+  "left": 0,
+  "right": 0,
+  "top": 0,
+  "bottom": 0,
+  "name": "Scene2D",
+  "autoDestroyAtClosed": true,
+  "_$child": [
+    {
+      "_$id": "ivb57s1z",
+      "_$type": "Label",
+      "name": "Label",
+      "x": 275,
+      "y": 492,
+      "width": 200,
+      "height": 84,
+      "top": 0,
+      "centerX": 0,
+      "centerY": -200,
+      "text": "[color=#00ff00]where Are U[/color][/size]\n",
+      "fontSize": 25,
+      "color": "#FFFFFF",
+      "ubb": true,
+      "align": "center",
+      "valign": "middle",
+      "leading": 2,
+      "padding": "0,0,0,0"
+    },
+    {
+      "_$id": "320tppoq",
+      "_$type": "Label",
+      "name": "Label(1)",
+      "x": 257,
+      "y": 704,
+      "width": 237,
+      "height": 60,
+      "centerX": 0,
+      "centerY": 0,
+      "text": "点击屏幕开始游戏",
+      "fontSize": 20,
+      "color": "#FFFFFF",
+      "align": "center",
+      "valign": "middle",
+      "leading": 2,
+      "padding": "0,0,0,0"
+    }
+  ]
+}

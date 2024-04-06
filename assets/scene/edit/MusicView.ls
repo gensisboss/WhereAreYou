@@ -1,0 +1,522 @@
+{
+  "_$ver": 1,
+  "_$id": "ss02jkp3",
+  "_$runtime": "res://78e79110-a235-4802-b1e1-56ba0817d798",
+  "_$type": "Scene",
+  "left": 0,
+  "right": 0,
+  "top": 0,
+  "bottom": 0,
+  "name": "Scene2D",
+  "autoDestroyAtClosed": true,
+  "_$comp": [
+    {
+      "_$type": "2c062f61-fa69-49f2-8a12-68537201c3b8",
+      "scriptPath": "../src/core/logic/DragDialog.ts",
+      "maskBox": {
+        "_$ref": "csz6tbb6"
+      },
+      "tweenType": "Bottom",
+      "tweenTime": 300,
+      "dragBox": {
+        "_$ref": "36n2x946"
+      },
+      "dragImage": null,
+      "auto": false,
+      "delay": true
+    }
+  ],
+  "_$child": [
+    {
+      "_$id": "36n2x946",
+      "_$var": true,
+      "_$type": "Box",
+      "name": "dragBox",
+      "width": 750,
+      "height": 1468,
+      "_mouseState": 2,
+      "bgColor": "rgba(23, 26, 31, 1)",
+      "_$child": [
+        {
+          "_$id": "csz6tbb6",
+          "_$var": true,
+          "_$type": "Box",
+          "name": "topBox",
+          "width": 750,
+          "height": 100,
+          "zOrder": 2,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "_$comp": [
+            {
+              "_$type": "7d1869da-8c5a-43de-a676-87d6973c547e",
+              "scriptPath": "../src/core/logic/FringeAdapter.ts",
+              "topAdpter": true,
+              "heightAdpter": false,
+              "iphoneXBottomAdpter": false,
+              "iphoneXHeightAdpter": false,
+              "refertooltop": null,
+              "refertoolbottom": null,
+              "onlyMoveDown": false,
+              "leftAdpter": false,
+              "rightAdpter": false
+            }
+          ],
+          "_$child": [
+            {
+              "_$id": "w57mofu6",
+              "_$var": true,
+              "_$type": "Image",
+              "name": "backBtn",
+              "x": 20,
+              "y": 20,
+              "width": 64,
+              "height": 64,
+              "left": 20,
+              "top": 20,
+              "skin": "res://8585de3f-e3de-41b4-8797-a978497cdf6e",
+              "color": "#ffffff"
+            },
+            {
+              "_$id": "fwbk3bus",
+              "_$type": "Label",
+              "name": "title",
+              "x": 260,
+              "y": 30,
+              "width": 231,
+              "height": 40,
+              "centerX": 0,
+              "centerY": 0,
+              "text": "生成音乐",
+              "font": "SimHei",
+              "fontSize": 34,
+              "color": "#FFFFFF",
+              "align": "center",
+              "valign": "middle",
+              "padding": "0,0,0,0"
+            }
+          ]
+        },
+        {
+          "_$id": "0j8d1dml",
+          "_$type": "Box",
+          "name": "middleBox",
+          "y": 150,
+          "width": 750,
+          "height": 330,
+          "_mouseState": 2,
+          "left": 0,
+          "right": 0,
+          "top": 150,
+          "_$child": [
+            {
+              "_$id": "jvshqpbi",
+              "_$type": "Image",
+              "name": "Image",
+              "x": 32,
+              "width": 686,
+              "height": 330,
+              "_mouseState": 2,
+              "left": 32,
+              "right": 32,
+              "top": 0,
+              "bottom": 0,
+              "skin": "res://0f9930d5-0841-4795-8d48-bddf1f88401d",
+              "sizeGrid": "15,50,25,50,0",
+              "color": "#ffffff",
+              "_$child": [
+                {
+                  "_$id": "vs5f80og",
+                  "_$type": "Label",
+                  "name": "Label",
+                  "x": 20,
+                  "y": 20,
+                  "width": 96,
+                  "height": 25,
+                  "left": 20,
+                  "top": 20,
+                  "text": "音乐信息",
+                  "font": "SimHei",
+                  "fontSize": 24,
+                  "color": "#FFFFFF",
+                  "fitContent": "yes",
+                  "padding": "0,0,0,0"
+                },
+                {
+                  "_$id": "gji5ikfx",
+                  "_$var": true,
+                  "_$type": "TextInput",
+                  "name": "nameInput",
+                  "x": 10,
+                  "y": 70,
+                  "width": 666,
+                  "height": 72,
+                  "_mouseState": 2,
+                  "left": 10,
+                  "right": 10,
+                  "top": 70,
+                  "text": "",
+                  "font": "SimHei",
+                  "fontSize": 24,
+                  "color": "#FFFFFF",
+                  "valign": "middle",
+                  "overflow": "scroll",
+                  "wordWrap": true,
+                  "padding": "10,10,10,20",
+                  "skin": "res://8b43682c-5d43-4622-aabc-aa621f15f2f8",
+                  "sizeGrid": "20,20,20,20,0",
+                  "maxChars": 10,
+                  "prompt": "请输入音乐名称",
+                  "promptColor": "#A9A9A9",
+                  "_$child": [
+                    {
+                      "_$id": "tvrbex1t",
+                      "_$var": true,
+                      "_$type": "Label",
+                      "name": "nameNum",
+                      "x": 584,
+                      "y": 11,
+                      "width": 72,
+                      "height": 50,
+                      "right": 10,
+                      "centerY": 0,
+                      "text": "0/10",
+                      "font": "SimHei",
+                      "fontSize": 22,
+                      "color": "rgba(153, 153, 153, 1)",
+                      "align": "center",
+                      "valign": "middle",
+                      "padding": "0,0,0,0"
+                    }
+                  ]
+                },
+                {
+                  "_$id": "mekw047x",
+                  "_$var": true,
+                  "_$type": "TextInput",
+                  "name": "descnput",
+                  "x": 9,
+                  "y": 166,
+                  "width": 666,
+                  "height": 144,
+                  "_mouseState": 2,
+                  "left": 9,
+                  "right": 11,
+                  "bottom": 20,
+                  "text": "",
+                  "font": "SimHei",
+                  "fontSize": 24,
+                  "color": "#FFFFFF",
+                  "overflow": "scroll",
+                  "wordWrap": true,
+                  "padding": "20,20,20,20",
+                  "skin": "res://8b43682c-5d43-4622-aabc-aa621f15f2f8",
+                  "sizeGrid": "20,20,20,20,0",
+                  "maxChars": 100,
+                  "prompt": "请输入音乐描述",
+                  "promptColor": "#A9A9A9",
+                  "multiline": true,
+                  "_$child": [
+                    {
+                      "_$id": "qgc8fuw5",
+                      "_$var": true,
+                      "_$type": "Label",
+                      "name": "descNum",
+                      "x": 584,
+                      "y": 94,
+                      "width": 72,
+                      "height": 50,
+                      "right": 10,
+                      "bottom": 0,
+                      "text": "0/10",
+                      "font": "SimHei",
+                      "fontSize": 22,
+                      "color": "rgba(153, 153, 153, 1)",
+                      "align": "center",
+                      "valign": "middle",
+                      "padding": "0,0,0,0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_$id": "zwo7se2g",
+          "_$type": "Box",
+          "name": "libraryBox",
+          "y": 500,
+          "width": 750,
+          "height": 818,
+          "_mouseState": 2,
+          "left": 0,
+          "right": 0,
+          "top": 500,
+          "bottom": 150,
+          "_$child": [
+            {
+              "_$id": "f8ionsqo",
+              "_$type": "Image",
+              "name": "Image",
+              "x": 32,
+              "width": 686,
+              "height": 818,
+              "left": 32,
+              "right": 32,
+              "top": 0,
+              "bottom": 0,
+              "skin": "res://0f9930d5-0841-4795-8d48-bddf1f88401d",
+              "sizeGrid": "30,30,30,30,0",
+              "color": "#ffffff"
+            },
+            {
+              "_$id": "6ho98wpy",
+              "_$type": "Box",
+              "name": "tabBox",
+              "x": 52,
+              "y": 20,
+              "width": 442,
+              "height": 64,
+              "left": 52,
+              "top": 20,
+              "_$child": [
+                {
+                  "_$id": "mpx1sg79",
+                  "_$type": "Image",
+                  "name": "Image",
+                  "width": 442,
+                  "height": 64,
+                  "left": 0,
+                  "right": 0,
+                  "top": 0,
+                  "bottom": 0,
+                  "skin": "res://8b43682c-5d43-4622-aabc-aa621f15f2f8",
+                  "sizeGrid": "20,20,20,20,0",
+                  "color": "#ffffff"
+                },
+                {
+                  "_$id": "e99klx0r",
+                  "_$var": true,
+                  "_$type": "Image",
+                  "name": "selectTab",
+                  "x": 230,
+                  "y": 58,
+                  "width": 212,
+                  "height": 52,
+                  "anchorY": 1,
+                  "centerY": 0,
+                  "skin": "res://8a32a607-0720-4aac-9081-279ff07945e3",
+                  "sizeGrid": "10,10,10,10,0",
+                  "color": "#ffffff"
+                },
+                {
+                  "_$id": "0x4iu4en",
+                  "_$var": true,
+                  "_$type": "Label",
+                  "name": "allSort",
+                  "y": 6,
+                  "width": 212,
+                  "height": 52,
+                  "_mouseState": 2,
+                  "left": 0,
+                  "centerY": 0,
+                  "text": "音乐库",
+                  "font": "SimHei",
+                  "fontSize": 24,
+                  "color": "rgba(255, 255, 255, 1)",
+                  "align": "center",
+                  "valign": "middle",
+                  "padding": "0,0,0,0"
+                },
+                {
+                  "_$id": "59qlualz",
+                  "_$var": true,
+                  "_$type": "Label",
+                  "name": "mySort",
+                  "x": 230,
+                  "y": 6,
+                  "width": 212,
+                  "height": 52,
+                  "_mouseState": 2,
+                  "right": 0,
+                  "centerY": 0,
+                  "text": "我的音乐库",
+                  "font": "SimHei",
+                  "fontSize": 28,
+                  "color": "rgba(0, 0, 0, 1)",
+                  "align": "center",
+                  "valign": "middle",
+                  "padding": "0,0,0,0"
+                }
+              ]
+            },
+            {
+              "_$id": "ft1f6k62",
+              "_$var": true,
+              "_$type": "Box",
+              "name": "tipNull",
+              "x": 225,
+              "y": 289,
+              "width": 300,
+              "height": 240,
+              "centerX": 0,
+              "centerY": 0,
+              "_$child": [
+                {
+                  "_$id": "clrgdy3d",
+                  "_$type": "Image",
+                  "name": "Image",
+                  "x": 86,
+                  "width": 128,
+                  "height": 128,
+                  "top": 0,
+                  "centerX": 0,
+                  "skin": "res://ec8a2ca8-2ae6-4e25-a4f8-201101b886eb",
+                  "useSourceSize": true,
+                  "color": "#ffffff"
+                },
+                {
+                  "_$id": "dipdj1yu",
+                  "_$type": "Label",
+                  "name": "Label",
+                  "x": 90,
+                  "y": 212,
+                  "width": 120,
+                  "height": 28,
+                  "bottom": 0,
+                  "centerX": 0,
+                  "text": "暂无数据",
+                  "font": "SimHei",
+                  "fontSize": 30,
+                  "color": "rgba(46, 50, 56, 1)",
+                  "align": "center",
+                  "valign": "middle",
+                  "padding": "0,0,0,0"
+                }
+              ]
+            },
+            {
+              "_$id": "8h3pdgyb",
+              "_$var": true,
+              "_$type": "List",
+              "name": "sortList",
+              "x": 60,
+              "y": 90,
+              "width": 630,
+              "height": 56,
+              "visible": false,
+              "_mouseState": 2,
+              "left": 60,
+              "right": 60,
+              "top": 90,
+              "itemTemplate": {
+                "_$ref": "hzvgkwgl",
+                "_$tmpl": "itemRender"
+              },
+              "repeatX": 55,
+              "repeatY": 1,
+              "scrollType": 1,
+              "_$child": [
+                {
+                  "_$id": "hzvgkwgl",
+                  "_$type": "Box",
+                  "name": "Box",
+                  "width": 124,
+                  "height": 56,
+                  "_$child": [
+                    {
+                      "_$id": "pw5tkbrj",
+                      "_$type": "Label",
+                      "name": "names",
+                      "width": 124,
+                      "height": 56,
+                      "left": 0,
+                      "right": 0,
+                      "top": 0,
+                      "bottom": 0,
+                      "text": "全部",
+                      "fontSize": 24,
+                      "color": "#FFFFFF",
+                      "align": "center",
+                      "valign": "middle",
+                      "padding": "0,0,0,0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "_$id": "pmd8now6",
+              "_$var": true,
+              "_$type": "List",
+              "name": "libraryList",
+              "x": 32,
+              "y": 100,
+              "width": 686,
+              "height": 718,
+              "visible": false,
+              "_mouseState": 2,
+              "mouseThrough": true,
+              "hitTestPrior": true,
+              "left": 32,
+              "right": 32,
+              "top": 100,
+              "bottom": 0,
+              "itemTemplate": {
+                "_$ref": "zuwlc33d",
+                "_$tmpl": "itemRender"
+              },
+              "repeatX": 2,
+              "repeatY": 10,
+              "elasticEnabled": true,
+              "spaceX": 16,
+              "spaceY": 16,
+              "scrollType": 2,
+              "_$comp": [
+                {
+                  "_$type": "9aa8e3ac-f8d8-47eb-8c32-0c3e44fdf023",
+                  "scriptPath": "../src/core/logic/MultiListRefresh.ts",
+                  "listTopLimit": -65,
+                  "listBottomLimit": 100
+                }
+              ],
+              "_$child": [
+                {
+                  "_$id": "zuwlc33d",
+                  "_$prefab": "e292864f-3b2a-49b6-a924-37cdb3540e8f",
+                  "name": "musicItem",
+                  "active": true,
+                  "x": 0,
+                  "y": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_$id": "8uxj5dvf",
+          "_$var": true,
+          "_$type": "Button",
+          "name": "generateBtn",
+          "x": 55,
+          "y": 1338,
+          "width": 640,
+          "height": 80,
+          "_mouseState": 2,
+          "bottom": 50,
+          "centerX": 0,
+          "stateNum": 2,
+          "skin": "res://7da052d1-2549-47d9-a8be-5fc7ac1ca648",
+          "sizeGrid": "15,30,15,30,0",
+          "label": "生成",
+          "labelFont": "SimHei",
+          "labelSize": 30,
+          "labelBold": true,
+          "labelColors": "#000000,#000000,#000000"
+        }
+      ]
+    }
+  ]
+}

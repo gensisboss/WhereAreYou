@@ -1,0 +1,54 @@
+{
+  "name": "找一找",
+  "minifyJS": true,
+  "startupScene": "res://bc641829-c24a-407a-9840-6f08aade877f",
+  "includedScenes": [
+    "res://20a2167b-f116-4733-a01d-ebf25ed466b1",
+    "res://83610d9c-3c54-4991-a40e-b053da06a889",
+    "res://3589913d-dfa5-41de-8369-83e88d4166cd",
+    "res://5b44a389-ec0d-48bf-90ed-fa6d36347218",
+    "res://6af89612-ea05-4385-aa42-6f121154aa27",
+    "res://ffccfa35-dec5-43ff-913a-0cf9a211eb37",
+    "res://c17f9db3-fb72-4f4b-b6c9-c84b61f45ac9",
+    "res://320460e4-ae3f-4780-bf26-d7e12ac6546b",
+    "res://c268c706-be2b-4830-89f3-9e0f9b1d470d",
+    "res://8a42b2a2-47bd-4258-a368-aa7c187fc949",
+    "res://601b46ee-9c55-4923-93eb-934bc95aef2c",
+    "res://c40f221f-0b77-4937-9910-268146abe2fb",
+    "res://3544275c-4c41-4299-bdd0-1931ac635599",
+    "res://a24b7224-a970-45cc-8893-69360708d693",
+    "res://68dca7c6-af4a-4379-85b4-1d8faaf382cf",
+    "res://2ed27550-8b46-488f-a0fb-ec681fb61ccd",
+    "res://0a9a52ad-4ddd-408c-8b0f-1aa3ae50d5b4",
+    "res://a467557f-6cb9-4e38-b8e3-cc0dca8da974",
+    "res://14d5c7fe-b14d-42cb-86c7-f8c33f5847b5",
+    "res://aebacc08-b326-4284-af6d-14ce1fbb99a9",
+    "res://1440dac6-bcd4-4de2-8575-24fabac139ef",
+    "res://e7279216-d996-4df9-8907-40c87622702c",
+    "res://20912b89-37d4-4580-b894-3507d2ace768",
+    "res://4d5cefe4-102a-4c5f-904c-c33a1748435c",
+    "res://669225b9-7a11-4a8f-9246-8f7d444efb5e",
+    "res://a096b502-115c-4f3f-b636-070aad67b60b",
+    "res://2ee24275-afa1-4a2a-bf93-8578ba097d24",
+    "res://f0413d3b-5d58-49b8-933e-d7e979b9c483",
+    "res://7b068b69-ac1e-4a72-bf35-7107fcb119fb",
+    "res://4fcfef97-948a-4399-bce1-a106cdd47617"
+  ],
+  "alwaysIncluded": [
+    "res://:f5",
+    "res://:f4",
+    "res://:f6"
+  ],
+  "web": {
+    "useSafeFileExtensions": true,
+    "keepTextureSourceFile": true
+  },
+  "ios": {
+    "standalone": true,
+    "appName": "MoYo",
+    "screenOrientation": "portrait"
+  },
+  "bytedancegame": {
+    "appid": "tt96c4e07909f4b9c502"
+  }
+}

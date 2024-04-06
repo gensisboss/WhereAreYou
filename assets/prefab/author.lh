@@ -1,0 +1,66 @@
+{
+  "_$ver": 1,
+  "_$id": "df7xm1f5xs",
+  "_$runtime": "res://c787cf3c-d634-491f-a78a-87aa7be93b7e",
+  "_$type": "Box",
+  "name": "Box",
+  "width": 100,
+  "height": 40,
+  "_$child": [
+    {
+      "_$id": "akw7ab5s",
+      "_$var": true,
+      "_$type": "Label",
+      "name": "authorName",
+      "y": 6,
+      "width": 0,
+      "height": 28,
+      "left": 0,
+      "centerY": 0,
+      "text": "-",
+      "fontSize": 24,
+      "color": "rgba(153, 153, 153, 1)",
+      "bold": true,
+      "align": "center",
+      "valign": "middle",
+      "leading": 2,
+      "padding": "0,0,0,0"
+    },
+    {
+      "_$id": "d9oc89y3",
+      "_$var": true,
+      "_$type": "Image",
+      "name": "authorIcon",
+      "x": 32,
+      "y": 2,
+      "width": 68,
+      "height": 36,
+      "right": 0,
+      "centerY": 0,
+      "skin": "res://5823dec3-7a88-4c64-b314-b5b02e5256f4",
+      "useSourceSize": true,
+      "color": "#ffffff",
+      "_$child": [
+        {
+          "_$id": "hhhz1uhy",
+          "_$type": "Label",
+          "name": "Label",
+          "width": 68,
+          "height": 36,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0,
+          "text": "作者",
+          "font": "SimHei",
+          "fontSize": 24,
+          "color": "#FFFFFF",
+          "align": "center",
+          "valign": "middle",
+          "leading": 2,
+          "padding": "0,0,0,0"
+        }
+      ]
+    }
+  ]
+}

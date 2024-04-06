@@ -1,0 +1,131 @@
+{
+  "_$ver": 1,
+  "_$id": "e3zb1xq66r",
+  "_$runtime": "res://e56db859-1cdb-41dc-84a8-e20d050d886b",
+  "_$type": "Box",
+  "name": "Box",
+  "width": 700,
+  "height": 200,
+  "_mouseState": 2,
+  "_$child": [
+    {
+      "_$id": "n1mm69sb",
+      "_$prefab": "2b2bf7b0-babc-40cd-9e91-27a5bfd58c51",
+      "_$var": true,
+      "name": "head",
+      "active": true,
+      "x": 10,
+      "y": 20,
+      "visible": true,
+      "left": 10,
+      "top": 20,
+      "height": 64,
+      "width": 64
+    },
+    {
+      "_$id": "ctqac936",
+      "_$var": true,
+      "_$type": "Image",
+      "name": "chatBg",
+      "x": 100,
+      "y": 50,
+      "width": 240,
+      "height": 80,
+      "left": 100,
+      "top": 50,
+      "skin": "res://2734fa38-f0f3-42e3-997c-581a8cc4c4cb",
+      "sizeGrid": "20,20,20,20,0",
+      "color": "#ffffff",
+      "_$child": [
+        {
+          "_$id": "1r2egndt",
+          "_$var": true,
+          "_$type": "Label",
+          "name": "chatLabel",
+          "x": 10,
+          "y": 10,
+          "width": 220,
+          "height": 60,
+          "text": "聊天内容",
+          "font": "SimHei",
+          "fontSize": 24,
+          "color": "#FFFFFF",
+          "wordWrap": true,
+          "leading": 5,
+          "padding": "0,0,0,0"
+        }
+      ]
+    },
+    {
+      "_$id": "rb8vs1re",
+      "_$prefab": "0d53ea82-3faf-4a32-91ad-2cdbf37d5b1f",
+      "_$var": true,
+      "name": "gameItem",
+      "active": true,
+      "x": 100,
+      "y": 50,
+      "visible": true,
+      "left": 100,
+      "width": 218,
+      "height": 218
+    },
+    {
+      "_$id": "opdofbc9",
+      "_$var": true,
+      "_$type": "Box",
+      "name": "gameDelete",
+      "x": 100,
+      "y": 50,
+      "width": 218,
+      "height": 218,
+      "left": 100,
+      "_$child": [
+        {
+          "_$id": "nibt6o6h",
+          "_$type": "Image",
+          "name": "Image",
+          "width": 218,
+          "height": 218,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0,
+          "skin": "res://bce77b87-49f6-4f62-a43a-68b2bcb5e98f",
+          "color": "#ffffff"
+        },
+        {
+          "_$id": "pe9ukesn",
+          "_$type": "Image",
+          "name": "Image",
+          "x": 45,
+          "y": 45,
+          "width": 128,
+          "height": 128,
+          "centerX": 0,
+          "centerY": 0,
+          "skin": "res://a8f8f3d8-9db4-4f90-b359-f331e4a90ea7",
+          "useSourceSize": true,
+          "color": "#ffffff"
+        }
+      ]
+    },
+    {
+      "_$id": "nvlabxab",
+      "_$var": true,
+      "_$type": "Label",
+      "name": "chatTime",
+      "width": 700,
+      "height": 28,
+      "left": 0,
+      "right": 0,
+      "top": 0,
+      "text": "12:21:56",
+      "font": "SimHei",
+      "fontSize": 24,
+      "color": "rgba(77, 77, 77, 1)",
+      "align": "center",
+      "valign": "middle",
+      "padding": "0,0,0,0"
+    }
+  ]
+}

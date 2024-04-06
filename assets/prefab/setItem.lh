@@ -1,0 +1,129 @@
+{
+  "_$ver": 1,
+  "_$id": "8izlmz69yw",
+  "_$runtime": "res://660566db-132c-4e9a-9cf6-20e2e3210fd7",
+  "_$type": "Box",
+  "name": "Box",
+  "width": 750,
+  "height": 400,
+  "mouseEnabled": true,
+  "_$child": [
+    {
+      "_$id": "ekpvb0iw",
+      "_$var": true,
+      "_$type": "Label",
+      "name": "title",
+      "width": 750,
+      "height": 60,
+      "left": 0,
+      "right": 0,
+      "top": 0,
+      "text": "标题",
+      "font": "SimHei",
+      "fontSize": 30,
+      "color": "rgba(70, 71, 76, 1)",
+      "valign": "middle",
+      "leading": 2,
+      "padding": "0,0,0,25"
+    },
+    {
+      "_$id": "8ldl5l78",
+      "_$var": true,
+      "_$type": "List",
+      "name": "contentList",
+      "y": 60,
+      "width": 750,
+      "height": 340,
+      "mouseEnabled": true,
+      "left": 0,
+      "right": 0,
+      "top": 60,
+      "bottom": 0,
+      "itemTemplate": {
+        "_$ref": "fghqjjfn",
+        "_$tmpl": "itemRender"
+      },
+      "repeatX": 1,
+      "repeatY": 1,
+      "_$child": [
+        {
+          "_$id": "fghqjjfn",
+          "_$type": "Box",
+          "name": "Box",
+          "width": 750,
+          "height": 80,
+          "left": 0,
+          "right": 0,
+          "_$child": [
+            {
+              "_$id": "3fgjzfsq",
+              "_$type": "Image",
+              "name": "icon",
+              "x": 32,
+              "y": 16,
+              "width": 48,
+              "height": 48,
+              "left": 32,
+              "centerY": 0,
+              "skin": "res://455c82a7-8cbc-48bd-af9e-e2ae10f9d256",
+              "color": "#ffffff"
+            },
+            {
+              "_$id": "75jcl60x",
+              "_$type": "Label",
+              "name": "desc",
+              "x": 100,
+              "y": 26,
+              "width": 400,
+              "height": 28,
+              "left": 100,
+              "centerY": 0,
+              "text": "-",
+              "font": "SimHei",
+              "fontSize": 26,
+              "color": "rgba(204, 204, 204, 1)",
+              "valign": "middle",
+              "overflow": "hidden",
+              "leading": 2,
+              "padding": "0,0,0,0"
+            },
+            {
+              "_$id": "m8fgtbr6",
+              "_$type": "Label",
+              "name": "value",
+              "x": 570,
+              "y": 26,
+              "width": 100,
+              "height": 28,
+              "right": 80,
+              "centerY": 0,
+              "text": "1",
+              "font": "SimHei",
+              "fontSize": 24,
+              "color": "rgba(128, 128, 128, 1)",
+              "align": "right",
+              "valign": "middle",
+              "overflow": "hidden",
+              "leading": 2,
+              "padding": "0,0,0,0"
+            },
+            {
+              "_$id": "pd63uhhu",
+              "_$type": "Image",
+              "name": "edit",
+              "x": 670,
+              "y": 16,
+              "width": 48,
+              "height": 48,
+              "right": 32,
+              "centerY": 0,
+              "skin": "res://cb0d8329-2f82-4b33-b193-2a7571c0a215",
+              "useSourceSize": true,
+              "color": "#ffffff"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

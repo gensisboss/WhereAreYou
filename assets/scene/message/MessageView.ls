@@ -1,0 +1,430 @@
+{
+  "_$ver": 1,
+  "_$id": "sxmy9d10",
+  "_$runtime": "res://385899c8-af6e-45d6-8328-6e6a4e2e06a4",
+  "_$type": "Scene",
+  "left": 0,
+  "right": 0,
+  "top": 0,
+  "bottom": 0,
+  "name": "Scene2D",
+  "_$child": [
+    {
+      "_$id": "4iqks98c",
+      "_$var": true,
+      "_$type": "Box",
+      "name": "topBox",
+      "width": 750,
+      "height": 100,
+      "left": 0,
+      "right": 0,
+      "top": 0,
+      "_$comp": [
+        {
+          "_$type": "7d1869da-8c5a-43de-a676-87d6973c547e",
+          "scriptPath": "../src/core/logic/FringeAdapter.ts",
+          "topAdpter": true,
+          "heightAdpter": false,
+          "iphoneXBottomAdpter": false,
+          "iphoneXHeightAdpter": false,
+          "refertooltop": null,
+          "refertoolbottom": null,
+          "onlyMoveDown": false,
+          "leftAdpter": false,
+          "rightAdpter": false
+        }
+      ],
+      "_$child": [
+        {
+          "_$id": "3zizo2cp",
+          "_$var": true,
+          "_$type": "Image",
+          "name": "backBtn",
+          "x": 20,
+          "y": 20,
+          "width": 64,
+          "height": 64,
+          "left": 20,
+          "top": 20,
+          "skin": "res://094a71dd-4d5e-4c20-8e13-62e5453f0f89",
+          "useSourceSize": true,
+          "color": "#ffffff"
+        },
+        {
+          "_$id": "cjpm318c",
+          "_$type": "Label",
+          "name": "title",
+          "x": 344,
+          "y": 30,
+          "width": 63,
+          "height": 40,
+          "centerX": 0,
+          "centerY": 0,
+          "text": "消息",
+          "font": "SimHei",
+          "fontSize": 34,
+          "color": "#FFFFFF",
+          "align": "center",
+          "valign": "middle",
+          "padding": "0,0,0,0"
+        },
+        {
+          "_$id": "x3bu08ca",
+          "_$type": "Image",
+          "name": "clearBtn",
+          "x": 419,
+          "y": 34,
+          "width": 32,
+          "height": 32,
+          "visible": false,
+          "centerX": 60,
+          "centerY": 0,
+          "skin": "res://c62b3898-de97-494f-86f5-00624b71d8cb",
+          "useSourceSize": true,
+          "color": "#ffffff"
+        }
+      ]
+    },
+    {
+      "_$id": "hzogiigp",
+      "_$var": true,
+      "_$type": "Box",
+      "name": "listBox",
+      "y": 100,
+      "width": 750,
+      "height": 1368,
+      "zOrder": 1,
+      "_mouseState": 2,
+      "top": 100,
+      "bottom": 0,
+      "_$comp": [
+        {
+          "_$type": "7d1869da-8c5a-43de-a676-87d6973c547e",
+          "scriptPath": "../src/core/logic/FringeAdapter.ts",
+          "topAdpter": true,
+          "heightAdpter": false,
+          "iphoneXBottomAdpter": false,
+          "iphoneXHeightAdpter": false,
+          "refertooltop": null,
+          "refertoolbottom": null,
+          "onlyMoveDown": false,
+          "leftAdpter": false,
+          "rightAdpter": false
+        }
+      ],
+      "_$child": [
+        {
+          "_$id": "efn9d9m4",
+          "_$type": "Box",
+          "name": "tabBox",
+          "y": 1,
+          "width": 750,
+          "height": 80,
+          "left": 0,
+          "right": 0,
+          "top": 1,
+          "_$child": [
+            {
+              "_$id": "upj8hp4z",
+              "_$var": true,
+              "_$type": "Label",
+              "name": "allSort",
+              "x": 50,
+              "y": 10,
+              "width": 50,
+              "height": 36,
+              "_mouseState": 2,
+              "top": 10,
+              "centerX": -300,
+              "text": "全部",
+              "font": "SimHei",
+              "fontSize": 24,
+              "color": "rgba(153, 153, 153, 1)",
+              "align": "center",
+              "valign": "middle",
+              "padding": "0,0,0,0",
+              "_$child": [
+                {
+                  "_$id": "yhh2nwb4",
+                  "_$type": "Image",
+                  "name": "Image",
+                  "x": 56,
+                  "width": 24,
+                  "height": 24,
+                  "visible": false,
+                  "right": -30,
+                  "top": 0,
+                  "skin": "res://d2cb422b-6d12-45a6-a333-b957a9c9fbeb",
+                  "useSourceSize": true,
+                  "color": "#ffffff"
+                }
+              ]
+            },
+            {
+              "_$id": "nief4nu2",
+              "_$var": true,
+              "_$type": "Label",
+              "name": "privateSort",
+              "x": 200,
+              "y": 10,
+              "width": 50,
+              "height": 36,
+              "_mouseState": 2,
+              "top": 10,
+              "centerX": -150,
+              "text": "私信",
+              "font": "SimHei",
+              "fontSize": 24,
+              "color": "rgba(153, 153, 153, 1)",
+              "align": "center",
+              "valign": "middle",
+              "padding": "0,0,0,0",
+              "_$child": [
+                {
+                  "_$id": "0l3dpohd",
+                  "_$type": "Image",
+                  "name": "Image(1)",
+                  "x": 56,
+                  "width": 24,
+                  "height": 24,
+                  "visible": false,
+                  "right": -30,
+                  "top": 0,
+                  "skin": "res://d2cb422b-6d12-45a6-a333-b957a9c9fbeb",
+                  "useSourceSize": true,
+                  "color": "#ffffff"
+                }
+              ]
+            },
+            {
+              "_$id": "fhkohish",
+              "_$var": true,
+              "_$type": "Label",
+              "name": "officialSort",
+              "x": 350,
+              "y": 10,
+              "width": 50,
+              "height": 36,
+              "_mouseState": 2,
+              "top": 10,
+              "centerX": 0,
+              "text": "官方",
+              "font": "SimHei",
+              "fontSize": 24,
+              "color": "rgba(153, 153, 153, 1)",
+              "align": "center",
+              "valign": "middle",
+              "padding": "0,0,0,0",
+              "_$child": [
+                {
+                  "_$id": "ro05w2eb",
+                  "_$type": "Image",
+                  "name": "Image(1)",
+                  "x": 56,
+                  "width": 24,
+                  "height": 24,
+                  "visible": false,
+                  "right": -30,
+                  "top": 0,
+                  "skin": "res://d2cb422b-6d12-45a6-a333-b957a9c9fbeb",
+                  "useSourceSize": true,
+                  "color": "#ffffff"
+                }
+              ]
+            },
+            {
+              "_$id": "8feuk9wx",
+              "_$var": true,
+              "_$type": "Label",
+              "name": "commentSort",
+              "x": 500,
+              "y": 11,
+              "width": 50,
+              "height": 36,
+              "_mouseState": 2,
+              "top": 11,
+              "centerX": 150,
+              "text": "评论",
+              "font": "SimHei",
+              "fontSize": 24,
+              "color": "rgba(153, 153, 153, 1)",
+              "align": "center",
+              "valign": "middle",
+              "padding": "0,0,0,0",
+              "_$child": [
+                {
+                  "_$id": "kyezncu0",
+                  "_$type": "Image",
+                  "name": "Image(1)",
+                  "x": 56,
+                  "width": 24,
+                  "height": 24,
+                  "visible": false,
+                  "right": -30,
+                  "top": 0,
+                  "skin": "res://d2cb422b-6d12-45a6-a333-b957a9c9fbeb",
+                  "useSourceSize": true,
+                  "color": "#ffffff"
+                }
+              ]
+            },
+            {
+              "_$id": "wh1nd0zp",
+              "_$var": true,
+              "_$type": "Label",
+              "name": "fanSort",
+              "x": 650,
+              "y": 10,
+              "width": 50,
+              "height": 36,
+              "_mouseState": 2,
+              "top": 10,
+              "centerX": 300,
+              "text": "粉丝",
+              "font": "SimHei",
+              "fontSize": 24,
+              "color": "rgba(153, 153, 153, 1)",
+              "align": "center",
+              "valign": "middle",
+              "padding": "0,0,0,0",
+              "_$child": [
+                {
+                  "_$id": "4e38eo50",
+                  "_$type": "Image",
+                  "name": "Image(1)",
+                  "x": 56,
+                  "width": 24,
+                  "height": 24,
+                  "visible": false,
+                  "right": -30,
+                  "top": 0,
+                  "skin": "res://d2cb422b-6d12-45a6-a333-b957a9c9fbeb",
+                  "useSourceSize": true,
+                  "color": "#ffffff"
+                }
+              ]
+            },
+            {
+              "_$id": "8jqvf1c4",
+              "_$type": "Image",
+              "name": "Image",
+              "x": 32,
+              "y": 76,
+              "width": 686,
+              "height": 2,
+              "left": 32,
+              "right": 32,
+              "bottom": 2,
+              "skin": "res://aa64395f-9919-4479-86dc-3462d852ad35",
+              "color": "#ffffff"
+            },
+            {
+              "_$id": "um4q2p8v",
+              "_$var": true,
+              "_$type": "Image",
+              "name": "selectTab",
+              "x": 57,
+              "y": 78,
+              "width": 50,
+              "height": 4,
+              "anchorY": 1,
+              "bottom": 2,
+              "skin": "res://cb4c8543-174d-492f-a463-68852ca3e983",
+              "color": "#ffffff"
+            }
+          ]
+        },
+        {
+          "_$id": "wary3i7w",
+          "_$var": true,
+          "_$type": "Box",
+          "name": "tipNull",
+          "x": 225,
+          "y": 300,
+          "width": 300,
+          "height": 240,
+          "top": 300,
+          "centerX": 0,
+          "_$child": [
+            {
+              "_$id": "pjpvh7pm",
+              "_$type": "Image",
+              "name": "Image",
+              "x": 86,
+              "width": 128,
+              "height": 128,
+              "top": 0,
+              "centerX": 0,
+              "skin": "res://ec8a2ca8-2ae6-4e25-a4f8-201101b886eb",
+              "useSourceSize": true,
+              "color": "#ffffff"
+            },
+            {
+              "_$id": "pswlc7fw",
+              "_$type": "Label",
+              "name": "Label",
+              "x": 90,
+              "y": 212,
+              "width": 120,
+              "height": 28,
+              "bottom": 0,
+              "centerX": 0,
+              "text": "暂无数据",
+              "font": "SimHei",
+              "fontSize": 30,
+              "color": "rgba(46, 50, 56, 1)",
+              "align": "center",
+              "valign": "middle",
+              "padding": "0,0,0,0"
+            }
+          ]
+        },
+        {
+          "_$id": "ymttspea",
+          "_$var": true,
+          "_$type": "List",
+          "name": "messageList",
+          "y": 100,
+          "width": 750,
+          "height": 1268,
+          "visible": false,
+          "_mouseState": 2,
+          "mouseThrough": true,
+          "hitTestPrior": true,
+          "left": 0,
+          "right": 0,
+          "top": 100,
+          "bottom": 0,
+          "itemTemplate": {
+            "_$ref": "mx7hv1ff",
+            "_$tmpl": "itemRender"
+          },
+          "repeatX": 1,
+          "repeatY": 10,
+          "elasticEnabled": true,
+          "spaceX": 16,
+          "spaceY": 16,
+          "scrollType": 2,
+          "_$comp": [
+            {
+              "_$type": "9aa8e3ac-f8d8-47eb-8c32-0c3e44fdf023",
+              "scriptPath": "../src/core/logic/MultiListRefresh.ts",
+              "listTopLimit": -65,
+              "listBottomLimit": 65
+            }
+          ],
+          "_$child": [
+            {
+              "_$id": "mx7hv1ff",
+              "_$prefab": "b27d19b2-0253-4267-9f70-03f3c8f1221e",
+              "name": "messageItem",
+              "active": true,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
